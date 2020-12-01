@@ -1,0 +1,7 @@
+---
+
+- name: touch file
+  file:
+    path: /tmp/me
+    state: touch
+    mode: 0700
