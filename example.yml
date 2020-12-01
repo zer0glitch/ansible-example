@@ -1,7 +1,10 @@
 ---
 
-- name: touch file
-  file:
-    path: /tmp/me
-    state: touch
-    mode: 0700
+- hosts: localhost
+  tasks:
+
+  - name: touch file
+      file:
+      path: /tmp/me
+      state: touch
+      mode: 0700
