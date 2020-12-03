@@ -1,6 +1,6 @@
 ---
 
-- hosts: eucom
+- hosts: foreman_eucom
   tasks:
 
   - name: touch file
