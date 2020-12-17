@@ -10,6 +10,7 @@
       name: "dev_database.matrix.lab"
       hostgroup: eucom_dev_database
       ip: 10.10.10.59
+      validate_certs: False
       compute_attributes:
         start: "1"
       build: true
