@@ -1,8 +1,12 @@
 # from GitHub
 roles:
 - src: https://github.com/zer0glitch/eucom-host-file-config.git
+#  - name: eucom-host-file-config
+#    source: https://github.com/zer0glitch/eucom-host-file-config.git
+#    type: git
 
 collections:
   # Install a collection from Ansible Galaxy.
   - name: ansible-foreman-modules
     source: https://github.com/zer0glitch/galaxy.git
+    type: git
