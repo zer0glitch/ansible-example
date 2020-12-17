@@ -1,0 +1,12 @@
+- name: "Create a host with build context"
+  theforeman.foreman.host:
+    username: "{{ admin_user }}"
+    password: "{{ admin_password }}"
+    server_url: "https://rh7-sat6-srv01.matrix.lab/"
+    name: "dev_database"
+    hostgroup: eucom_dev_database
+    ip: 10.10.10.59
+    compute_attributes:
+      start: "1"
+    build: true
+    state: present
