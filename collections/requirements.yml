@@ -4,10 +4,10 @@ collections:
 #  - name: theforeman.foreman
 #    source: git+https://github.com/zer0glitch/galaxy.git 
 #    type: git
-  - name: theforeman.foreman
+  - name: galaxy
     src: git+https://github.com/zer0glitch/galaxy.git 
     type: git
-    version: main
+    #version: main
 #  - name: https://github.com/zer0glitch/galaxy.git 
 #    type: git
 #    version: main
