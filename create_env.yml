@@ -1,4 +1,4 @@
-- hosts: localhost ansible_connection=local
+- hosts: rh7-sat6-srv01.matrix.lab
   tasks: 
 
   - name: "Create a host with build context"
