@@ -5,7 +5,7 @@ collections:
 #    source: git+https://github.com/zer0glitch/galaxy.git 
 #    type: git
   - name: theforeman.foreman
-    src: https://github.com/zer0glitch/galaxy.git 
+    src: git+https://github.com/zer0glitch/galaxy.git 
     type: git
     version: main
 #  - name: https://github.com/zer0glitch/galaxy.git 
