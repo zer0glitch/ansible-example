@@ -6,3 +6,4 @@ collections:
 #    type: git
   - name: https://github.com/zer0glitch/galaxy.git
     type: git
+    version: main
