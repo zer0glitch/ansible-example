@@ -7,3 +7,4 @@ collections:
   - name: https://github.com/zer0glitch/galaxy.git 
     type: git
     version: main
+    path: roles
