@@ -1,0 +1,6 @@
+# from GitHub
+collections:
+  # Install a collection from Ansible Galaxy.
+  - name: ansible-foreman-modules
+    source: https://github.com/zer0glitch/galaxy.git
+    type: git
