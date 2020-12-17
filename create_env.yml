@@ -8,7 +8,7 @@
       password: "{{ admin_password }}"
       server_url: "https://rh7-sat6-srv01.matrix.lab/"
       name: "dev_database.matrix.lab"
-      hostgroup: eucom_dev_database
+      hostgroup: "eucom_base_config/dev_base/eucom_dev_database"
       ip: 10.10.10.59
       validate_certs: False
       compute_attributes:
