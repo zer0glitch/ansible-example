@@ -4,7 +4,7 @@ collections:
 #  - name: theforeman.foreman
 #    source: https://github.com/zer0glitch/galaxy.git 
 #    type: git
-  - name: https://github.com/zer0glitch/galaxy.git 
+  - name: git+https://github.com/zer0glitch/galaxy.git 
     type: git
     version: main
     path: roles
