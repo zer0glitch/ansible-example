@@ -2,11 +2,12 @@
   tasks: 
 
   - name: "Create a host with build context"
+    become: awx
     theforeman.foreman.host:
       username: "{{ admin_user }}"
       password: "{{ admin_password }}"
       server_url: "https://rh7-sat6-srv01.matrix.lab/"
-      name: "dev_database"
+      name: "dev_database.matrix.lab"
       hostgroup: eucom_dev_database
       ip: 10.10.10.59
       compute_attributes:
