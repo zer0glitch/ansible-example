@@ -2,7 +2,7 @@
 collections:
   # Install a collection from Ansible Galaxy.
   - name: theforeman.foreman
-    source: https://github.com/zer0glitch/galaxy.git 
+    source: git+https://github.com/zer0glitch/galaxy.git 
     type: git
 #  - name: 
 #    type: git
