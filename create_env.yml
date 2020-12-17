@@ -1,4 +1,4 @@
-- hosts: rh7-sat6-srv01.matrix.lab ansible_connection=local
+- hosts: rh7-ans-srv01.matrix.lab ansible_connection=local
   tasks: 
 
   - name: "Create a host with build context"
