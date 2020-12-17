@@ -11,4 +11,4 @@
 
   - name: import rotle example
     import_role: 
-      name: ansible-role-php
+      name: eucom-host-file-config
